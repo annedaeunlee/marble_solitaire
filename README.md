@@ -1,4 +1,4 @@
-# marble_solitaire
+# Marble Solitaire
 
 The game starts with all 36 marbles outside of the field, leaving the empty hole in the middle of the board. 
 To play, simply jump one marble over another and place it into the tray. 
