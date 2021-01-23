@@ -7,4 +7,4 @@ If you end up with more than one marble, you lose.
 
 At the end of the game for my program, the screen displays whether the user has won or lost and how many marbles were left on the board.
 
-My program comes with the English setup of marble solitaire (cross shape) as well as two other style: the European setup (octogonal shape) and the Triangle setup (triangle shape)
+My program comes with the English setup of marble solitaire (cross shape) as well as two other styles, the European setup (octogonal shape) and the Triangle setup (triangle shape).
