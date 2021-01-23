@@ -1,0 +1,12 @@
+Some changes I made to my existing MarbleSolitaireModelImpl include:
+
+- changing the access modifier of the fields, "armThickness" and "gameBoard",
+ and helper methods, "calcBoardLength", "calcBoardCenter", "updateBoard", "canStillMakeMoves",
+ and "isNextToMarble" to be protected instead of private so that subclasses have access to them.
+ - for some of the methods in the base class, I shortened, combined, or replace code for it to
+ run more smoothly, be more efficient and be more easily readable.
+ - I used the helper method "calcBoardLength" a lot in the methods of the base class but
+ this formula is not applicable for triangle shapes, only for the european and english boards.
+ Therefore, i went in and replaced the parts where I used that helper and replaced it with
+ the preexisting method that comes along with 2D arrays in Java "length", which simply returns
+ the length of the board, without using the armthickness or dimension.
